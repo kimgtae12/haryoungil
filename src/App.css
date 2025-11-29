@@ -1,0 +1,195 @@
+html {
+  font-size: 10px;
+}
+* {
+  box-sizing: border-box;
+  font-family: "Regular";
+}
+.App {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: transparent !important;
+}
+
+.text-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.main-side-gradient {
+  background: linear-gradient(
+    to right,
+    rgba(204, 204, 204, 0),
+    rgba(198, 198, 198, 0.15),
+    rgba(190, 190, 190, 0.35),
+    rgba(173, 173, 173, 0.35),
+    rgba(173, 173, 173, 0.35)
+  );
+}
+
+.sub-side-gradient {
+  background: linear-gradient(
+    to right,
+    rgba(204, 204, 204, 0),
+    rgba(173, 173, 173, 0.2)
+  );
+}
+
+.sub-side-wrapper {
+  transition: max-width 0.3s ease-in-out;
+}
+
+.sub-side-on {
+  max-width: 32rem;
+}
+
+.sub-side-off {
+  min-width: 0;
+  max-width: 0;
+}
+
+.multi-line-ellips {
+  width: 100%;
+  white-space: normal;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+html::-webkit-scrollbar {
+  width: 10px;
+}
+html::-webkit-scrollbar-track {
+  background-color: white;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: rgba(112, 115, 124, 0.22);
+  border-radius: 4px;
+}
+
+html::-webkit-scrollbar-button {
+  display: none;
+}
+
+div::-webkit-scrollbar {
+  width: 10px;
+}
+div::-webkit-scrollbar-track {
+  background-color: white;
+}
+
+div::-webkit-scrollbar-thumb {
+  background-color: rgba(112, 115, 124, 0.22);
+  border-radius: 4px;
+}
+
+div::-webkit-scrollbar-button {
+  display: none;
+}
+
+.tool-wrapper {
+  background-color: #f9f9f9;
+}
+.wrapper-area {
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e2;
+  border-radius: 5px;
+  padding: 1rem;
+}
+.editor-area {
+  border-radius: 5px;
+  border: 1px solid #e0e0e2;
+  background-color: white;
+  height: 25rem;
+  min-height: 25rem;
+  max-height: 25rem;
+  overflow-y: scroll;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.slick-slider {
+  width: 100%;
+}
+
+.swiper-slide {
+  display: flex !important;
+  justify-content: center !important;
+}
+/** font area **/
+@font-face {
+  font-family: "Thin";
+  src: url("./assets/font/Pretendard-Thin.otf");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Light";
+  src: url("./assets/font/Pretendard-Light.otf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "ExtraLight";
+  src: url("./assets/font/Pretendard-ExtraLight.otf");
+}
+
+@font-face {
+  font-family: "Regular";
+  src: url("./assets/font/Pretendard-Regular.otf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Medium";
+  src: url("./assets/font/Pretendard-Medium.otf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "SemiBold";
+  src: url("./assets/font/Pretendard-SemiBold.otf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Bold";
+  src: url("./assets/font/Pretendard-Bold.otf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "ExtraBold";
+  src: url("./assets/font/Pretendard-ExtraBold.otf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "eulyoo-Regular";
+  src: url("./assets/font/eulyoo/Eulyoo1945-Regular.eot");
+  src: url("./assets/font/eulyoo/Eulyoo1945-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/font/eulyoo/Eulyoo1945-Regular.woff2") format("woff2"),
+    url("./assets/font/eulyoo/Eulyoo1945-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "eulyoo-SemiBold";
+  src: url("./assets/font/eulyoo/Eulyoo1945-SemiBold.eot");
+  src: url("./assets/font/eulyoo/Eulyoo1945-SemiBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/font/eulyoo/Eulyoo1945-SemiBold.woff2") format("woff2"),
+    url("./assets/font/eulyoo/Eulyoo1945-SemiBold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
