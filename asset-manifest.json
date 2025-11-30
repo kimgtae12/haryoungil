@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/haryoungil/static/css/main.0a3ba232.css",
-    "main.js": "/haryoungil/static/js/main.55b81eb6.js",
+    "main.css": "/haryoungil/static/css/main.baadec39.css",
+    "main.js": "/haryoungil/static/js/main.ca1ebd22.js",
     "static/js/453.a6b15676.chunk.js": "/haryoungil/static/js/453.a6b15676.chunk.js",
+    "static/media/main_intro.jpg": "/haryoungil/static/media/main_intro.60fc1ed082d44fc69605.jpg",
     "static/media/Eulyoo1945-SemiBold.eot": "/haryoungil/static/media/Eulyoo1945-SemiBold.05c45d534d9ae4b20e57.eot",
     "static/media/Eulyoo1945-Regular.eot": "/haryoungil/static/media/Eulyoo1945-Regular.05111da5a64fab7949e2.eot",
-    "static/media/main_card.jpg": "/haryoungil/static/media/main_card.9b789b2d1fd8d5ff8fe1.jpg",
     "static/media/Eulyoo1945-SemiBold.woff": "/haryoungil/static/media/Eulyoo1945-SemiBold.17adbe22a2e31ddfd127.woff",
     "static/media/Eulyoo1945-Regular.woff": "/haryoungil/static/media/Eulyoo1945-Regular.766920bca03245483948.woff",
     "static/media/Pretendard-Light.otf": "/haryoungil/static/media/Pretendard-Light.65372b5df865e8aa758a.otf",
@@ -19,14 +19,15 @@
     "static/media/Eulyoo1945-SemiBold.woff2": "/haryoungil/static/media/Eulyoo1945-SemiBold.d5e97e07937273966030.woff2",
     "static/media/Eulyoo1945-Regular.woff2": "/haryoungil/static/media/Eulyoo1945-Regular.0bf9b02b115fd935777b.woff2",
     "static/media/wedding_map.png": "/haryoungil/static/media/wedding_map.c4f44bc1cf0498ca2d8d.png",
-    "static/media/ic_naver_map.png": "/haryoungil/static/media/ic_naver_map.bd6b8ab7c7db6423192f.png",
+    "static/media/ic_wedding.png": "/haryoungil/static/media/ic_wedding.fef4a5060bd6aa194a59.png",
+    "static/media/ic_naver_map.png": "/haryoungil/static/media/ic_naver_map.aa54005ab363eb090b5d.png",
     "index.html": "/haryoungil/index.html",
-    "main.0a3ba232.css.map": "/haryoungil/static/css/main.0a3ba232.css.map",
-    "main.55b81eb6.js.map": "/haryoungil/static/js/main.55b81eb6.js.map",
+    "main.baadec39.css.map": "/haryoungil/static/css/main.baadec39.css.map",
+    "main.ca1ebd22.js.map": "/haryoungil/static/js/main.ca1ebd22.js.map",
     "453.a6b15676.chunk.js.map": "/haryoungil/static/js/453.a6b15676.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a3ba232.css",
-    "static/js/main.55b81eb6.js"
+    "static/css/main.baadec39.css",
+    "static/js/main.ca1ebd22.js"
   ]
 }
