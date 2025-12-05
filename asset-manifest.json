@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/haryoungil/static/css/main.2479bd86.css",
-    "main.js": "/haryoungil/static/js/main.ed5d4398.js",
+    "main.js": "/haryoungil/static/js/main.466132b8.js",
     "static/js/453.b3bcd974.chunk.js": "/haryoungil/static/js/453.b3bcd974.chunk.js",
     "static/media/hanyun.ttf": "/haryoungil/static/media/hanyun.6b946a1a55ed162157b7.ttf",
     "static/media/gallery2.jpg": "/haryoungil/static/media/gallery2.5eb7fd0bc03e6f33bfdf.jpg",
@@ -35,16 +35,18 @@
     "static/media/gallery15.jpg": "/haryoungil/static/media/gallery15.52863c18a7b526e251b1.jpg",
     "static/media/gallery13.jpg": "/haryoungil/static/media/gallery13.2b8c94f0316c089669ff.jpg",
     "static/media/gallery9.jpg": "/haryoungil/static/media/gallery9.4d4190929240b8aa8088.jpg",
+    "static/media/ic_kakao.png": "/haryoungil/static/media/ic_kakao.602ca38515330e3e60ea.png",
     "static/media/wedding_map.png": "/haryoungil/static/media/wedding_map.c4f44bc1cf0498ca2d8d.png",
     "static/media/ic_wedding.png": "/haryoungil/static/media/ic_wedding.fef4a5060bd6aa194a59.png",
-    "static/media/ic_naver_map.png": "/haryoungil/static/media/ic_naver_map.aa54005ab363eb090b5d.png",
+    "static/media/ic_call.png": "/haryoungil/static/media/ic_call.15224b6a58a05c9c614f.png",
+    "static/media/ic_naver.png": "/haryoungil/static/media/ic_naver.bd6b8ab7c7db6423192f.png",
     "index.html": "/haryoungil/index.html",
     "main.2479bd86.css.map": "/haryoungil/static/css/main.2479bd86.css.map",
-    "main.ed5d4398.js.map": "/haryoungil/static/js/main.ed5d4398.js.map",
+    "main.466132b8.js.map": "/haryoungil/static/js/main.466132b8.js.map",
     "453.b3bcd974.chunk.js.map": "/haryoungil/static/js/453.b3bcd974.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2479bd86.css",
-    "static/js/main.ed5d4398.js"
+    "static/js/main.466132b8.js"
   ]
 }
