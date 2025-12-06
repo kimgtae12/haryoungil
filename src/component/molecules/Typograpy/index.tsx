@@ -9,8 +9,9 @@ import { ResponsesiveValueType } from "theme/styles.type";
 interface TypograpyType {
   fontSize?: ResponsesiveValueType<number> | number;
   fontWeight?:
-    'Eulyoo-Regular'
-    | 'Eulyoo-SemiBold'
+    | "Hanyun"
+    | "Eulyoo-Regular"
+    | "Eulyoo-SemiBold"
     | "Thin"
     | "Light"
     | "Regular"

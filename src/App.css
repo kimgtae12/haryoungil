@@ -1,9 +1,16 @@
 html {
   font-size: 10px;
 }
+body {
+  touch-action: pan-y pan-x;
+}
 * {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
   box-sizing: border-box;
   font-family: "Regular";
+  touch-action: manipulation;
 }
 .App {
   text-align: center;
@@ -20,6 +27,10 @@ a:hover {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+.full-height {
+  height: 100vh; /* Fallback */
+  height: calc(var(--vh, 1vh) * 100);
 }
 
 .main-side-gradient {
@@ -190,6 +201,13 @@ div::-webkit-scrollbar-button {
       format("embedded-opentype"),
     url("./assets/font/eulyoo/Eulyoo1945-SemiBold.woff2") format("woff2"),
     url("./assets/font/eulyoo/Eulyoo1945-SemiBold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Hanyun";
+  src: url("./assets/font/hanyun.ttf");
   font-weight: normal;
   font-style: normal;
 }

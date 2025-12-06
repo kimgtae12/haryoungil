@@ -12,11 +12,23 @@ import { InView } from "react-intersection-observer";
 import { motion, useAnimation } from "framer-motion";
 
 import "swiper/css";
+import { ContentsArea } from "component/organisms/section/ContentsArea";
+import { MapArea } from "component/organisms/section/MapArea";
 
 const MainPage = () => {
   const deviceInfo = useDeviceType();
 
   const controls = useAnimation();
+
+  const shareKaKao = () => {
+    window.Kakao.Share.sendCustom({
+      templateId: 126413,
+      templateArgs: {
+        title: "하룡길 장가간다 ㅋㅋ",
+        description: "세상 오래 살고 볼일이고 ㅋㅋㅋ",
+      },
+    });
+  };
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -53,7 +65,7 @@ const MainPage = () => {
     <FlexBox
       $gap={2}
       $isFullWidth
-      $minHeight={"100vh"}
+      // $minHeight={"100vh"}
       $bgcolor={colors.BACKGROUND_COLOR}
       $ai={"center"}
       $px={2}
@@ -145,6 +157,7 @@ const MainPage = () => {
                       $gap={2}
                     >
                       <Box
+                        onClick={shareKaKao}
                         $flex={1}
                         $width={"100%"}
                         $br={8}
@@ -206,6 +219,41 @@ const MainPage = () => {
                 </FlexBox>
               </FlexBox>
             </FlexBox>
+          </SwiperSlide>
+        )}
+        <SwiperSlide>
+          <FlexBox
+            $isFullWidth
+            $height="100vh"
+            $jc={"center"}
+            style={{
+              width: deviceInfo === "pc" ? "80%" : "100%",
+            }}
+          >
+            <FlexBox
+              $isFullWidth
+              $height={deviceInfo === "mobile" ? "90vh" : "70vh"}
+              $flexDirection={deviceInfo === "pc" ? "row" : "column"}
+              $jc={"center"}
+              $ai={"center"}
+              $gap={{ pc: 1.2, mobile: 3 }}
+            >
+              <FlexBox
+                $flex={deviceInfo === "pc" ? 1 : undefined}
+                $ai={"center"}
+                $isFullWidth
+                $height={"100%"}
+              >
+                <ContentsArea />
+              </FlexBox>
+              {deviceInfo === "pc" && <MapArea />}
+            </FlexBox>
+          </FlexBox>
+        </SwiperSlide>
+
+        {deviceInfo === "mobile" && (
+          <SwiperSlide>
+            <MapArea />
           </SwiperSlide>
         )}
       </Swiper>

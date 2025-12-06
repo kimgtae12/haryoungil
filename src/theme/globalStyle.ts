@@ -5,6 +5,7 @@ import {
   BoxShadowType,
   CustomDivType,
   CustomFlexType,
+  CustomGridType,
   CustomImgType,
   CustomTextInputType,
   CustomTextType,
@@ -227,6 +228,25 @@ const FlexBox = styled(Box)<CustomFlexType>`
   align-items: ${({ $ai }) => $ai || "flex-start"};
 `;
 
+const GridBox = styled(Box)<CustomGridType>`
+  display: grid;
+  ${({ $gap }) => $gap && getResponsiveCss("gap", $gap, "rem")};
+  ${({ $rowGap }) => $rowGap && getResponsiveCss("row-gap", $rowGap, "rem")};
+  ${({ $columnGap }) =>
+    $columnGap && getResponsiveCss("column-gap", $columnGap, "rem")};
+  grid-template-columns: ${({ $gridTemplateColumns }) =>
+    $gridTemplateColumns || "1fr"};
+  grid-template-rows: ${({ $gridTemplateRows }) => $gridTemplateRows || "auto"};
+  grid-auto-flow: ${({ $gridAutoFlow }) => $gridAutoFlow || "row"};
+  ${({ $gridAutoColumns }) =>
+    $gridAutoColumns && `grid-auto-columns: ${$gridAutoColumns};`}
+  ${({ $gridAutoRows }) => $gridAutoRows && `grid-auto-rows: ${$gridAutoRows};`}
+  justify-content: ${({ $jc }) => $jc || "start"};
+  align-items: ${({ $ai }) => $ai || "start"};
+  ${({ $placeItems }) => $placeItems && `place-items: ${$placeItems};`}
+  ${({ $placeContent }) => $placeContent && `place-content: ${$placeContent};`}
+`;
+
 //P태그 커스텀 - 경태
 const CustomPText = styled.p<CustomTextType>`
   font-size: ${({ $fs }) => $fs && `${$fs}rem`};
@@ -289,7 +309,8 @@ export {
   CustomPText,
   CustomTextInput,
   FlexBox,
+  GridBox,
   borderMixin,
   marginPaddingMixin,
-  Img
+  Img,
 };

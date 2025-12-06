@@ -102,6 +102,51 @@ export type CustomFlexType = CustomDivType &
     $ai?: "flex-start" | "flex-end" | "center" | "stretch" | "baseline";
   };
 
+// GridBox Props 타입 정의
+export type CustomGridType = CustomDivType &
+  MarginPaddingMixinType & {
+    $gap?:
+      | string
+      | number
+      | {
+          mobile?: string | number;
+          tablet?: string | number;
+          desktop?: string | number;
+        };
+    $rowGap?:
+      | string
+      | number
+      | {
+          mobile?: string | number;
+          tablet?: string | number;
+          desktop?: string | number;
+        };
+    $columnGap?:
+      | string
+      | number
+      | {
+          mobile?: string | number;
+          tablet?: string | number;
+          desktop?: string | number;
+        };
+    $gridTemplateColumns?: string;
+    $gridTemplateRows?: string;
+    $gridAutoFlow?: "row" | "column" | "dense" | "row dense" | "column dense";
+    $gridAutoColumns?: string;
+    $gridAutoRows?: string;
+    $jc?:
+      | "start"
+      | "end"
+      | "center"
+      | "stretch"
+      | "space-around"
+      | "space-between"
+      | "space-evenly";
+    $ai?: "start" | "end" | "center" | "stretch" | "baseline";
+    $placeItems?: string;
+    $placeContent?: string;
+  };
+
 export type CustomGirdType = MarginPaddingMixinType & {
   gtc?: string; //grid-template-columns
   gtr?: string; //grid-template-rows
@@ -117,8 +162,9 @@ export type CustomTextType = MarginPaddingMixinType & {
   $fs?: ResponsesiveValueType<number> | number; //fontSize
   $fc?: string; //font color
   $fw?:
-    'Eulyoo-Regular' |
-    'Eulyoo-SemiBold'
+    | "Hanyun"
+    | "Eulyoo-Regular"
+    | "Eulyoo-SemiBold"
     | "Thin"
     | "Light"
     | "ExtraLight"
