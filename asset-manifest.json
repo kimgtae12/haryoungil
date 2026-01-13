@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.e045497b.css",
-    "main.js": "/static/js/main.0e7bed66.js",
+    "main.js": "/static/js/main.ffd2f418.js",
     "static/js/453.b3bcd974.chunk.js": "/static/js/453.b3bcd974.chunk.js",
     "static/media/hanyun.ttf": "/static/media/hanyun.6b946a1a55ed162157b7.ttf",
+    "static/media/bgm.mp3": "/static/media/bgm.601d7f63e568385d750e.mp3",
     "static/media/gallery2.jpg": "/static/media/gallery2.5eb7fd0bc03e6f33bfdf.jpg",
     "static/media/gallery3.jpg": "/static/media/gallery3.426f1b8d0f6b3ba95d51.jpg",
     "static/media/gallery16.jpg": "/static/media/gallery16.b3cfc31f26995b39ab6d.jpg",
@@ -40,13 +41,14 @@
     "static/media/ic_wedding.png": "/static/media/ic_wedding.fef4a5060bd6aa194a59.png",
     "static/media/ic_call.png": "/static/media/ic_call.15224b6a58a05c9c614f.png",
     "static/media/ic_naver.png": "/static/media/ic_naver.bd6b8ab7c7db6423192f.png",
+    "static/media/ic_speaker.png": "/static/media/ic_speaker.03081b72788792c0d431.png",
     "index.html": "/index.html",
     "main.e045497b.css.map": "/static/css/main.e045497b.css.map",
-    "main.0e7bed66.js.map": "/static/js/main.0e7bed66.js.map",
+    "main.ffd2f418.js.map": "/static/js/main.ffd2f418.js.map",
     "453.b3bcd974.chunk.js.map": "/static/js/453.b3bcd974.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e045497b.css",
-    "static/js/main.0e7bed66.js"
+    "static/js/main.ffd2f418.js"
   ]
 }
